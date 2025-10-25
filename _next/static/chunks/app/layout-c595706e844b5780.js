@@ -208,19 +208,19 @@
                     className: "hidden md:flex items-center space-x-6",
                     children: [
                       (0, r.jsx)(i(), {
-                        href: "/how-it-works",
+                        href: "/how-it-works.html",
                         className:
                           "font-light text-zinc-400 transition-colors hover:text-white",
                         children: "How it Works",
                       }),
                       (0, r.jsx)(i(), {
-                        href: "/explore",
+                        href: "/explore.html",
                         className:
                           "font-light text-zinc-400 transition-colors hover:text-white",
                         children: "Explore",
                       }),
                       (0, r.jsx)(i(), {
-                        href: "/leaderboard",
+                        href: "/leaderboard.html",
                         className:
                           "font-light text-zinc-400 transition-colors hover:text-white",
                         children: "Leaderboard",
@@ -253,13 +253,20 @@
                     variant: "outline",
                     className:
                       "hidden border-zinc-800 bg-zinc-900/50 font-normal text-zinc-100 hover:bg-zinc-800 hover:text-white sm:flex",
-                    children: [
-                      (0, r.jsx)("span", {
-                        className: "mr-1 text-lg font-medium leading-none",
-                        children: "+",
-                      }),
-                      " Create Push",
-                    ],
+                 children: [
+  (0, r.jsxs)("a", {
+    href: "/create.html",
+    className:
+      "hidden border-zinc-800 bg-zinc-900/50 font-normal text-zinc-100 hover:bg-zinc-800 hover:text-white sm:flex items-center px-3 py-2 rounded-md",
+    children: [
+      (0, r.jsx)("span", {
+        className: "mr-1 text-lg font-medium leading-none",
+        children: "+"
+      }),
+      " Create Push"
+    ]
+  })
+],
                   }),
                   (0, r.jsx)(o.$, {
                     onClick: () => {
